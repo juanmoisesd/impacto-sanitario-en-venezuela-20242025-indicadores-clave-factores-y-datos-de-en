@@ -1,0 +1,17 @@
+{
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@type": "Dataset",
+  "name": "Impacto Sanitario en Venezuela (2024\u20132025): Indicadores Clave, Factores y Datos de Enfermedades",
+  "identifier": "10.5281/zenodo.18948118",
+  "url": "https://doi.org/10.5281/zenodo.18948118",
+  "author": [
+    {
+      "@type": "Person",
+      "givenName": "Juan Mois\u00e9s",
+      "familyName": "de la Serna Tuya",
+      "@id": "https://orcid.org/0000-0002-8401-8018"
+    }
+  ],
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "keywords": []
+}
