@@ -1,0 +1,11 @@
+cc0, dataset, open-data, zenodo
+open-data
+dataset
+research
+science
+FAIR
+reproducibility
+open-science
+academic
+citation
+DOI
