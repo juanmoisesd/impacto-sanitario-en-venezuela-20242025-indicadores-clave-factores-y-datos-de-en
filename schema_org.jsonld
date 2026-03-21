@@ -1,0 +1,40 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Esta base de datos recopila indicadores clave de salud, datos de brotes de enfermedades, tasas de vacunación, estado del sistema de salud, seguridad alimentaria y los principales factores que influyen en la salud pública en Venezuela durante 2024–202",
+  "description": "Esta base de datos recopila indicadores clave de salud, datos de brotes de enfermedades, tasas de vacunación, estado del sistema de salud, seguridad alimentaria y los principales factores que influyen en la salud pública en Venezuela durante 2024–202",
+  "url": "https://github.com/juanmoisesd/impacto-sanitario-en-venezuela-20242025-indicadores-clave-factores-y-datos-de-en",
+  "sameAs": "https://juanmoisesd.github.io/impacto-sanitario-en-venezuela-20242025-indicadores-clave-factores-y-datos-de-en/",
+  "identifier": "https://github.com/juanmoisesd/impacto-sanitario-en-venezuela-20242025-indicadores-clave-factores-y-datos-de-en",
+  "author": {
+    "@type": "Person",
+    "name": "Juan Moisés de la Serna Tuya",
+    "@id": "https://orcid.org/0000-0002-8401-8018",
+    "affiliation": {
+      "@type": "Organization",
+      "name": "Universidad Internacional de La Rioja (UNIR)"
+    },
+    "email": "juanmoises.delaserna@unir.net"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Universidad Internacional de La Rioja (UNIR)",
+    "url": "https://www.unir.net"
+  },
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "datePublished": "2026-03-20",
+  "dateModified": "2026-03-20",
+  "keywords": "cc0, dataset, open-data, zenodo",
+  "inLanguage": [
+    "es",
+    "en"
+  ],
+  "isAccessibleForFree": true,
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "https://github.com/juanmoisesd/impacto-sanitario-en-venezuela-20242025-indicadores-clave-factores-y-datos-de-en"
+    }
+  ]
+}
