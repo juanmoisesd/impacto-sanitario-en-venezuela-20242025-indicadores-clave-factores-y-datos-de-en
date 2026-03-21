@@ -1,136 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>Impacto Sanitario en Venezuela (2024–2025): Indicadores Clave, Factores y Datos </title>
-<meta name="description" content="Esta base de datos recopila indicadores clave de salud, datos de brotes de enfermedades, tasas de vacunación, estado del sistema de salud, seguridad alimentaria">
-<meta name="keywords" content="">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
-<style>
-*{margin:0;padding:0;box-sizing:border-box}
-body{font-family:Arial,sans-serif;background:#1a1a2e;color:#e0e0e0;line-height:1.6}
-nav{background:#16213e;padding:10px 20px;display:flex;gap:12px;flex-wrap:wrap;position:sticky;top:0;z-index:100;box-shadow:0 2px 8px rgba(0,0,0,.4)}
-nav a{color:#a0b4c8;text-decoration:none;font-size:12px;padding:4px 10px;border-radius:4px}
-nav a:hover{background:#0f3460;color:#fff}
-.hero{background:linear-gradient(135deg,#16213e,#0f3460);padding:48px 24px;text-align:center}
-.hero h1{font-size:clamp(16px,2.5vw,26px);color:#fff;margin-bottom:12px;max-width:800px;margin-left:auto;margin-right:auto}
-.hero p{color:#a0b4c8;max-width:700px;margin:0 auto 20px;font-size:13px}
-.badge{display:inline-block;padding:4px 12px;border-radius:20px;font-size:11px;font-weight:bold;margin:3px;text-decoration:none}
-.doi{background:#2980b9;color:#fff}.orcid{background:#a6ce39;color:#333}.cc0{background:#555;color:#fff}
-.container{max-width:1100px;margin:0 auto;padding:28px 20px}
-.sec{margin-bottom:44px}
-.sec h2{font-size:17px;color:#3498db;margin-bottom:14px;border-bottom:1px solid #2c3e50;padding-bottom:6px}
-.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:14px;margin-bottom:20px}
-.card{background:#16213e;border-radius:8px;padding:18px;border-left:3px solid #3498db}
-.card .num{font-size:26px;font-weight:bold;color:#3498db}
-.card .lbl{font-size:11px;color:#7f8c8d;margin-top:4px}
-.chart-box{background:#16213e;border-radius:8px;padding:18px;margin-bottom:16px}
-.tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
-.tag{background:#0f3460;color:#a0b4c8;padding:3px 9px;border-radius:10px;font-size:11px}
-.qs{list-style:none}
-.qs li{background:#16213e;border-radius:6px;padding:10px 14px;margin-bottom:7px;border-left:3px solid #e67e22;font-size:13px}
-.cite{background:#16213e;border-radius:8px;padding:18px;font-family:monospace;font-size:11px;line-height:1.9;color:#a0b4c8;border:1px solid #2c3e50;overflow-x:auto}
-.btn{display:inline-block;background:#3498db;color:#fff;padding:9px 18px;border-radius:5px;text-decoration:none;font-size:13px;margin:3px}
-.btn.green{background:#27ae60}
-footer{background:#16213e;padding:20px;text-align:center;font-size:11px;color:#7f8c8d;margin-top:32px}
-footer a{color:#3498db}
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Esta base de datos recopila indicadores clave de salud, datos de brotes de enfermedades, tasas de vacunación, estado del sistema de salud, seguridad alimentaria y los principales factores que influyen en la salud pública en Venezuela durante 2024–202">
+  <meta name="author" content="Juan Moisés de la Serna Tuya">
+  <meta name="keywords" content="cc0, dataset, open-data, zenodo">
+  <meta property="og:title" content="Esta base de datos recopila indicadores clave de salud, datos de brotes de enfermedades, tasas de vacunación, estado del sistema de salud, seguridad alimentaria y los principales factores que influyen en la salud pública en Venezuela durante 2024–202">
+  <meta property="og:description" content="Esta base de datos recopila indicadores clave de salud, datos de brotes de enfermedades, tasas de vacunación, estado del sistema de salud, seguridad alimentaria y los principales factores que influyen en la salud pública en Venezuela durante 2024–202">
+  <meta property="og:url" content="https://juanmoisesd.github.io/impacto-sanitario-en-venezuela-20242025-indicadores-clave-factores-y-datos-de-en/">
+  <title>Esta base de datos recopila indicadores clave de salud, datos de brotes de enfermedades, tasas de vacunación, estado del sistema de salud, seguridad alimentaria y los principales factores que influyen en la salud pública en Venezuela durante 2024–202</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    "name": "Esta base de datos recopila indicadores clave de salud, datos de brotes de enfermedades, tasas de vacunación, estado del sistema de salud, seguridad alimentaria y los principales factores que influyen en la salud pública en Venezuela durante 2024–202",
+    "description": "Esta base de datos recopila indicadores clave de salud, datos de brotes de enfermedades, tasas de vacunación, estado del sistema de salud, seguridad alimentaria y los principales factores que influyen en la salud pública en Venezuela durante 2024–202",
+    "url": "https://github.com/juanmoisesd/impacto-sanitario-en-venezuela-20242025-indicadores-clave-factores-y-datos-de-en",
+    "author": {
+      "@type": "Person",
+      "name": "Juan Moisés de la Serna Tuya",
+      "identifier": "https://orcid.org/0000-0002-8401-8018"
+    },
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "datePublished": "2026-03-20",
+    "keywords": "cc0, dataset, open-data, zenodo"
+  }
+  </script>
 </head>
 <body>
-<nav>
-  <a href="#overview">Overview</a>
-  <a href="#findings">Findings</a>
-  <a href="#charts">Charts</a>
-  <a href="#questions">Questions</a>
-  <a href="#download">Download</a>
-  <a href="#citation">Citation</a>
-</nav>
-<div class="hero">
-  <h1>Impacto Sanitario en Venezuela (2024–2025): Indicadores Clave, Factores y Datos de Enfermedades</h1>
-  <p>Esta base de datos recopila indicadores clave de salud, datos de brotes de enfermedades, tasas de vacunación, estado del sistema de salud, seguridad alimentaria y los principales factores que influyen en la salud pública en Venezuela durante 2024–2025. Datos obtenidos de Perplexi</p>
-  <a href="https://doi.org/10.5281/zenodo.18948118" class="badge doi">DOI: 10.5281/zenodo.18948118</a>
-  <a href="https://orcid.org/0000-0002-8401-8018" class="badge orcid">ORCID 0000-0002-8401-8018</a>
-  <span class="badge cc0">CC0 1.0</span>
-</div>
-<div class="container">
-  <div class="sec" id="overview">
-    <h2>📋 Dataset Overview</h2>
-    <p style="font-size:14px">Esta base de datos recopila indicadores clave de salud, datos de brotes de enfermedades, tasas de vacunación, estado del sistema de salud, seguridad alimentaria y los principales factores que influyen en la salud pública en Venezuela durante 2024–2025. Datos obtenidos de Perplexity.ai, con cita de OMS/OPS, HRW, UNICEF, OCHA, EU ECHO, Ballard Brief (BYU), Disaster Philanthropy, World Vision, The Global Economy y Caracas Chronicles.</p>
-    <div class="tags"></div>
-  </div>
-  <div class="sec" id="findings">
-    <h2>📊 Key Indicators</h2>
-    <div class="cards">
-      <div class="card"><div class="num">Zenodo</div><div class="lbl">Platform</div></div>
-      <div class="card"><div class="num">2026</div><div class="lbl">Published</div></div>
-      <div class="card"><div class="num">CC0</div><div class="lbl">Open access</div></div>
-    </div>
-  </div>
-  <div class="sec" id="charts">
-    <h2>📈 Visualization</h2>
-    <div class="chart-box"><canvas id="c1" height="90"></canvas></div>
-  </div>
-  <div class="sec" id="questions">
-    <h2>❓ Research Questions</h2>
-    <ul class="qs">
-      <li>What are the main temporal trends in the data?</li>
-      <li>Are there significant differences between groups or regions?</li>
-      <li>Which variables show the highest variance over the analyzed period?</li>
-      <li>How are the main indicators correlated with each other?</li>
-      <li>What policy implications emerge from this data?</li>
-      <li>What factors best explain the observed variation?</li>
-    </ul>
-  </div>
-  <div class="sec" id="download">
-    <h2>⬇️ Access & Download</h2>
-    <a href="https://doi.org/10.5281/zenodo.18948118" class="btn">Download from Zenodo</a>
-    <a href="https://doi.org/10.5281/zenodo.18948118" class="btn green">View metadata</a>
-  </div>
-  <div class="sec" id="citation">
-    <h2>📄 How to Cite</h2>
-    <div class="cite">de la Serna Tuya, J.M. (2026). Impacto Sanitario en Venezuela (2024–2025): Indicadores Clave, Factore. Zenodo. https://doi.org/10.5281/zenodo.18948118
-
-@misc{serna_2026,
-  author    = {de la Serna Tuya, Juan Moisés},
-  title     = {Impacto Sanitario en Venezuela (2024–2025): Indicadores Clav},
-  year      = {2026},
-  doi       = {10.5281/zenodo.18948118},
-  url       = {https://doi.org/10.5281/zenodo.18948118},
-  publisher = {Zenodo},
-  note      = {CC0 1.0}
-}</div>
-  </div>
-</div>
-<footer>
-  <strong>Juan Moisés de la Serna Tuya</strong> · Universidad Internacional de La Rioja (UNIR)<br>
-  <a href="https://juanmoisesdelaserna.es">juanmoisesdelaserna.es</a> ·
-  <a href="https://orcid.org/0000-0002-8401-8018">ORCID 0000-0002-8401-8018</a> ·
-  <a href="https://doi.org/10.5281/zenodo.18948118">DOI 10.5281/zenodo.18948118</a> · CC0 1.0
-</footer>
-<script>
-new Chart(document.getElementById('c1'),{
-  type:'bar',
-  data:{
-    labels:["A", "B", "C", "D", "E"],
-    datasets:[{
-      label:'Indicators',
-      data:[20.0, 36.2, 54.8, 75.8, 99.2],
-      backgroundColor:['#3498db','#e74c3c','#2ecc71','#f39c12','#9b59b6'],
-      borderRadius:4
-    }]
-  },
-  options:{
-    responsive:true,
-    plugins:{
-      legend:{labels:{color:'#e0e0e0'}},
-      title:{display:true,text:'Main variables',color:'#e0e0e0'}
-    },
-    scales:{
-      x:{ticks:{color:'#a0b4c8'},grid:{color:'#2c3e50'}},
-      y:{ticks:{color:'#a0b4c8'},grid:{color:'#2c3e50'}}
-    }
-  }
-});
-</script>
-</body></html>
+  <header>
+    <h1>Esta base de datos recopila indicadores clave de salud, datos de brotes de enfermedades, tasas de vacunación, estado del sistema de salud, seguridad alimentaria y los principales factores que influyen en la salud pública en Venezuela durante 2024–202</h1>
+    <p class="subtitle">Open Dataset by <a href="https://orcid.org/0000-0002-8401-8018">Juan Moisés de la Serna Tuya</a></p>
+  </header>
+  <main>
+    <section id="about">
+      <h2>About</h2>
+      <p>Esta base de datos recopila indicadores clave de salud, datos de brotes de enfermedades, tasas de vacunación, estado del sistema de salud, seguridad alimentaria y los principales factores que influyen en la salud pública en Venezuela durante 2024–202</p>
+      <ul>
+        <li><strong>Author:</strong> <a href="https://orcid.org/0000-0002-8401-8018">Juan Moisés de la Serna Tuya</a></li>
+        <li><strong>Institution:</strong> Universidad Internacional de La Rioja (UNIR)</li>
+        <li><strong>License:</strong> <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal</a></li>
+        <li><strong>Repository:</strong> <a href="https://github.com/juanmoisesd/impacto-sanitario-en-venezuela-20242025-indicadores-clave-factores-y-datos-de-en">GitHub</a></li>
+      </ul>
+    </section>
+    <section id="cite">
+      <h2>How to Cite</h2>
+      <code>de la Serna Tuya, J.M. (2026). Esta base de datos recopila indicadores clave de salud, datos de brotes de enfermedades, tasas de vacunación, estado del sistema de salud, seguridad alimentaria y los principales factores que influyen en la salud pública en Venezuela durante 2024–202. GitHub. https://github.com/juanmoisesd/impacto-sanitario-en-venezuela-20242025-indicadores-clave-factores-y-datos-de-en</code>
+    </section>
+    <section id="data">
+      <h2>Access Data</h2>
+      <a class="btn" href="https://github.com/juanmoisesd/impacto-sanitario-en-venezuela-20242025-indicadores-clave-factores-y-datos-de-en">View on GitHub</a>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2026 Juan Moisés de la Serna Tuya | <a href="https://orcid.org/0000-0002-8401-8018">ORCID</a> | <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</a></p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
