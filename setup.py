@@ -1,0 +1,13 @@
+from setuptools import setup, find_packages
+setup(
+    name="impacto-sanitario-en-venezuela-20242025-indicadores-clave-factores-y-datos-de-en",
+    version="1.0.0",
+    description="Esta base de datos recopila indicadores clave de salud, datos de brotes de enfermedades, tasas de va",
+    author="de la Serna, Juan Moisés",
+    url="https://github.com/juanmoisesd/impacto-sanitario-en-venezuela-20242025-indicadores-clave-factores-y-datos-de-en",
+    packages=find_packages(),
+    install_requires=["pandas>=1.3.0","requests>=2.26.0"],
+    python_requires=">=3.7",
+    classifiers=["Programming Language :: Python :: 3","License :: OSI Approved :: MIT License","Topic :: Scientific/Engineering"],
+    keywords="age-structure, cc0, citation, dataset, demographic-transition, demography, fair-data, juan-moises-de-la-serna, latin-america, open-data, open-science, orcid, population-data, research, zenodo, zenodo, open-data",
+)
