@@ -1,0 +1,23 @@
+{
+  "title": "Esta base de datos recopila indicadores clave de salud, datos de brotes de enfer",
+  "id": "juanmoisesd/impacto-sanitario-en-venezuela-20242025-indicadore",
+  "licenses": [
+    {
+      "name": "CC BY 4.0"
+    }
+  ],
+  "keywords": [
+    "age-structure",
+    "cc0",
+    "citation",
+    "dataset",
+    "demographic-transition",
+    "demography",
+    "fair-data",
+    "juan-moises-de-la-serna",
+    "latin-america",
+    "open-data"
+  ],
+  "description": "Esta base de datos recopila indicadores clave de salud, datos de brotes de enfermedades, tasas de vacunación, estado del sistema de salud, seguridad alimentaria y los principales factores que influyen en la salud pública en Venezuela durante 2024–202\n\nDOI: https://github.com/juanmoisesd/impacto-sanitario-en-venezuela-20242025-indicadores-clave-factores-y-datos-de-en\nGitHub: https://github.com/juanmoisesd/impacto-sanitario-en-venezuela-20242025-indicadores-clave-factores-y-datos-de-en\nAuthor: de la Serna, Juan Moisés",
+  "isPrivate": false
+}
