@@ -29,21 +29,16 @@ tags:
 
 # Esta base de datos recopila indicadores clave de salud, datos de brotes de enfer
 
-- **DOI:** [https://github.com/juanmoisesd/impacto-sanitario-en-venezuela-20242025-indicadores-clave-factores-y-datos-de-en](https://github.com/juanmoisesd/impacto-sanitario-en-venezuela-20242025-indicadores-clave-factores-y-datos-de-en)
-- **GitHub:** [juanmoisesd/impacto-sanitario-en-venezuela-20242025-indicadores-clave-factores-y-datos-de-en](https://github.com/juanmoisesd/impacto-sanitario-en-venezuela-20242025-indicadores-clave-factores-y-datos-de-en)
-- **License:** CC BY 4.0
-- **Author:** de la Serna, Juan Moisés
+**DOI:** [https://github.com/juanmoisesd/impacto-sanitario-en-venezuela-20242025-indicadores-clave-factores-y-datos-de-en](https://github.com/juanmoisesd/impacto-sanitario-en-venezuela-20242025-indicadores-clave-factores-y-datos-de-en) | **GitHub:** [juanmoisesd/impacto-sanitario-en-venezuela-20242025-indicadores-clave-factores-y-datos-de-en](https://github.com/juanmoisesd/impacto-sanitario-en-venezuela-20242025-indicadores-clave-factores-y-datos-de-en) | **License:** CC BY 4.0
 
-## Load
-
+## Quick load
 ```python
 import pandas as pd
-# See Zenodo for actual filenames
-df = pd.read_csv("https://github.com/juanmoisesd/impacto-sanitario-en-venezuela-20242025-indicadores-clave-factores-y-datos-de-en/files/data.csv")
+# See https://github.com/juanmoisesd/impacto-sanitario-en-venezuela-20242025-indicadores-clave-factores-y-datos-de-en for file listing
+df = pd.read_csv("URL_FROM_ZENODO")
 ```
 
-## Citation
-
+## Cite
 ```bibtex
 @dataset{delaserna2025,author={de la Serna, Juan Moisés},title={Esta base de datos recopila indicadores clave de salud, dato},year={2025},doi={https://github.com/juanmoisesd/impacto-sanitario-en-venezuela-20242025-indicadores-clave-factores-y-datos-de-en},url={https://github.com/juanmoisesd/impacto-sanitario-en-venezuela-20242025-indicadores-clave-factores-y-datos-de-en}}
 ```
